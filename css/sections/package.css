@@ -1,15 +1,15 @@
 .package {
-    background-color: #a79c9c;;
-    width: 98%;
+    background-color: rgb(59, 99, 99);
+    width: 100%;
     height: 12rem;
     margin-top: 50px;
-    margin-left: 25px;
     text-align: center;
 }
 
 .package h1 {
     padding-top: 60px;
-    font-size: 40px;
+    font-size: 60px;
+    text-align: center;
 }
 
 .city-package {
@@ -17,7 +17,7 @@
     margin-top: 40px;
     position: relative;
     width: 100%;
-    margin-left: 200px;
+    padding-left: 300px;
 }
 
 .isi-city-package {

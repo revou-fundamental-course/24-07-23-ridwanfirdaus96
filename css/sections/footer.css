@@ -5,7 +5,7 @@ footer {
 footer img {
     width: 150px;
     margin-bottom: 30px;
-    margin-left: 32rem;
+    margin-left: 36rem;
 }
 
 footer .ul {
@@ -15,7 +15,7 @@ footer .ul {
 footer ul {
     display: flex;
     gap: 10px;
-    margin-left: 30rem;
+    margin-left: 33rem;
     overflow: hidden;
 }
 

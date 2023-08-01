@@ -1,23 +1,24 @@
 .navbar {
     display: flex;
     overflow: hidden;
-    background-color: aqua;
+    width: 100%;
+    background-color: rgb(59, 99, 99);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     height: 60px;
 }
 
 .logo img {
-    width: 150px;
+    width: 130px;
     flex: 1;
     display: flex;
     position: relative;
     padding: 30px;
-    margin-top: -50px;
+    margin-top: -28px;
 }
 
 .navbar_menu, .navbar_menu-mobile {
     padding: 20px;
-    padding-top: 50px;
+    padding-top: 15px;
     flex: 1.256;
     display: flex;
     align-items: center;
@@ -34,10 +35,17 @@
 
 .navbar_menu li {
     font-family: var(--plus-jakarta-sans);
+    /* background-color: red; */
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
     text-transform: uppercase;
-    line-height: 20px;
+    /* line-height: 40px;
+    width: 100px; */
     cursor: pointer;
-    margin-top: -50px;
-}
+    padding-left: -1px;
+}   
+
+/* .navbar_menu li:hover {
+    background-color: white;
+    border-bottom: 1px solid red;
+} */

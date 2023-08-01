@@ -23,11 +23,18 @@
     scroll-behavior: smooth;
 }
 
+html {
+    display: block;
+}
+
 body {
-    max-width: 1280px;
+    /* max-width: 1000px; */    
+    display: block;
+    width: 100%;
+    height: 100vh;
     font-family: var(--plus-jakarta-sans);
-    margin: 0 auto;
     background-color: var(--color-creamson);
+    line-height: 1.3;
 }
 
 a {
@@ -39,9 +46,13 @@ a {
     .navbar {
         display: flex;
         overflow: hidden;
+        width: 100%;
+        background-color: rgb(59, 99, 99);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        height: 60px;
     }
     .logo img {
-    width: 150px;
+    width: 100px;
     flex: 1;
     display: flex;
     position: relative;
@@ -55,7 +66,7 @@ a {
     
     .navbar_menu-mobile {
         display: flex;
-        margin-top: -50px;
+        margin-top: 1px;
     }
 
     .form {
@@ -65,15 +76,23 @@ a {
     .slideshow {
         max-width: 1000px;
         position: relative;
-        margin-left: 10px;
+        margin-left: 120px;
+    }
+
+    .slideshow-h2 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+        text-align: left;
     }
 
     .form-flex-2 {
         position: inherit;
         background-color: rgb(115, 199, 199);
-        width: 350px;
+        width: 450px;
         height: 500px;
-        margin-left: 10px;
+        margin-left: 80px;
         margin-top: 30px;
     }
     
@@ -89,6 +108,18 @@ a {
       padding-top: 20px;
       margin-bottom: 20px;
     }
+
+    .text {
+        color: #a79c9c;
+        font-size: 15px;
+        margin-left: -60px;
+        padding-top: 8px;
+        padding-left: -20px;
+        position: inherit;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
     
     label {
       margin: 8px 30px;
@@ -147,14 +178,6 @@ a {
         font-size: 12px;
       }
 
-      .slideshow-h2 {
-        font-size: 15px;
-        line-height: 20px;
-        margin-top: 30px;
-        margin-left: 30px;
-        text-align: left;
-    }
-
     .circle-1 {
         background: lightblue;
         border-radius: 50%;
@@ -198,7 +221,7 @@ a {
         margin-top: 40px;
         position: relative;
         width: 100%;
-        margin-left: 10px;
+        padding-left: 45px;
     }
     
     .isi-city-package {
@@ -265,9 +288,9 @@ a {
     
     
     .circle-img {
-        width: 25px;
-        padding-left: 1px;
-        padding-top: 5px;
+        width: 30px;
+        padding-left: 12px;
+        padding-top: 10px;
     }
     
     .title-package h1 {
@@ -301,7 +324,7 @@ a {
     .cta-button {
         background: rgb(50, 57, 68);
         color: white;
-        margin-left: 90px;
+        margin-left: 180px;
         margin-top: 70px;
         width: 200px;
         height: 30px;
@@ -316,7 +339,7 @@ a {
     footer img {
         width: 150px;
         margin-bottom: 30px;
-        margin-left: 7rem;
+        margin-left: 13rem;
     }
     
     footer .ul {
@@ -324,10 +347,9 @@ a {
     }
     
     footer ul {
-       
         display: flex;
         gap: 10px;
-        margin-left: 33rem;
+        margin-left: 10rem;
         overflow: hidden;
     }
     
