@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    overflow: hidden;
+    background-color: aqua;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    height: 60px;
+}
+
+.logo img {
+    width: 150px;
+    flex: 1;
+    display: flex;
+    position: relative;
+    padding: 30px;
+    margin-top: -50px;
+}
+
+.navbar_menu, .navbar_menu-mobile {
+    padding: 20px;
+    padding-top: 50px;
+    flex: 1.256;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 64px;
+    list-style: none;
+}
+
+.navbar_menu-mobile {
+    display: none;
+    gap: 20px;
+    position: relative;
+}
+
+.navbar_menu li {
+    font-family: var(--plus-jakarta-sans);
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 20px;
+    cursor: pointer;
+    margin-top: -50px;
+}

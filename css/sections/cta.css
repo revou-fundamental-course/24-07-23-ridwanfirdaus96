@@ -1,0 +1,26 @@
+.call-us {
+    margin-top: 100px;
+}
+
+.call-us h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.call-us p {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+    color: gray;
+}
+
+.cta-button {
+    background: rgb(50, 57, 68);
+    color: white;
+    margin-left: 480px;
+    margin-top: 70px;
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+}

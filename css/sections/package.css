@@ -1,0 +1,102 @@
+.package {
+    background-color: #a79c9c;;
+    width: 98%;
+    height: 12rem;
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.package h1 {
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+.city-package {
+    display: flex;
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    margin-left: 200px;
+}
+
+.isi-city-package {
+    display: flex;
+    line-height: 22px;
+    margin-top: 50px;
+}
+
+.circle-list-1 {
+    background: lightblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 2px;
+    margin-top: -5px;
+
+}
+
+.circle-list-2 {
+    background: lightblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.circle-list-3 {
+    background: lightblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.circle-list-4 {
+    background: lightblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 2px;
+    margin-top: -5px;
+}
+
+.circle-list-5 {
+    background: lightblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 2px;
+    margin-top: -5px;
+}
+
+
+.circle-list-6 {
+    background: lightblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 2px;
+    margin-top: -5px;
+}
+
+
+.circle-img {
+    width: 35px;
+    padding-left: 13px;
+    padding-top: 12px;
+}
+
+.title-package h1 {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.title-package p {
+    margin-left: 10px;
+    color: grey;
+    font-size: 15px;
+    padding-top: 20px;
+}
