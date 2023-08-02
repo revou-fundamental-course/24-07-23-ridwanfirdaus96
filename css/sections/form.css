@@ -114,7 +114,7 @@ button[type=submit]:hover {
     cursor: pointer;
     position: absolute;
     top: 0;
-    top: 50%;
+    top: 25%;
     width: auto;
     padding: 16px;
     margin-top: -22px;
